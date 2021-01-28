@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApplication1</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/css/site.css" />
+        @*<link href="https://cdn.syncfusion.com/16.1.0.37/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+            <link href="~/lib/syncfusion-javascript/Content/ej/web/responsive-css/ej.responsive.css" rel="stylesheet" />
+            <link href="~/lib/syncfusion-javascript/Content/ej/web/responsive-css/ejgrid.responsive.css" rel="stylesheet" />
+
+            <script src="~/lib/jquery-3.1.1.min.js"></script>
+            <script src="~/lib/jsviews.min.js"></script>
+            <script src="~/lib/jsrender.js"></script>
+            <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+            <script src="~/lib/syncfusion-javascript/Scripts/ej/web/ej.web.all.js"></script>*@
+        @* Syncfusion Essential JS 2 Styles *@
+        <link rel="stylesheet" href="https://cdn.syncfusion.com/ej2/18.4.39/material.css" />
+
+        @* Syncfusion Essential JS 2 Scripts *@
+        <script src="https://cdn.syncfusion.com/ej2/18.4.39/dist/ej2.min.js"></script>
+
+
+
+    </environment>
+</head>
+<body>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+
+    @RenderSection("Scripts", required: false)
+
+    <ejs-scripts></ejs-scripts>
+</body>
+</html>
