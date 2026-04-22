@@ -18,15 +18,22 @@ This sample showcases how to implement server-side export capabilities for Syncf
 - .NET 6.0 or higher
 - Visual Studio or VS Code
 - ASP.NET Core SDK
-- Syncfusion EJ2 Grid components
+- Syncfusion.EJ2
+- Syncfusion.EJ2.GridExport
 - C# knowledge
 
 ## Installation
 1. Clone the repository
-2. Navigate to the project directory
-3. Run `dotnet restore` to install dependencies
-4. Execute `dotnet build` to build the project
-5. Run `dotnet run` to start the application
+   ```
+   git clone https://github.com/SyncfusionExamples/Grid-Server-side-export-ASP.Net-Core.git
+   ```
+3. Navigate to the project directory
+   ```
+   cd Grid-Server-side-export-ASP.Net-Core
+   ```
+5. Run `dotnet restore` to install dependencies
+6. Execute `dotnet build` to build the project
+7. Run `dotnet run` to start the application
 
 ## Usage
 The grid displays sample order data with two export options:
